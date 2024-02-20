@@ -17,7 +17,7 @@ test('renders quiz page when navigating to /quizPage', () => {
   const { getByText } = render(
     <Router>
       <App />
-    </Router>
+    </Router>//
   );
   const linkElement = getByText(/quiz page/i);
   expect(linkElement).toBeInTheDocument();
